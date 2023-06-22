@@ -1,4 +1,8 @@
-// define the first two numbers seq[0] = 1 & seq[1] = 1 
+/**
+ * 
+ * @param {number} n 
+ * @returns []
+ */
 function fibonacciSequence(n){
     const fib = [0, 1];
     for (let i = 2; i < n; i++){
